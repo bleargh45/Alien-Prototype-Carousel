@@ -1,0 +1,40 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use Alien::Prototype::Carousel;
+
+my $dir = shift || './prototype-carousel';
+print "Installing Prototype Carousel component to $dir\n";
+Alien::Prototype::Carousel->install( $dir );
+print "... done\n";
+
+
+=head1 NAME
+
+prototype-carousel-install - Prototype Carousel component installation
+
+=head1 SYNOPSIS
+
+  prototype-carousel-install destdir
+
+=head1 DESCRIPTION
+
+Installs the Prototype Carousel component (including CSS file) into the
+specified F<destdir>, using C<Alien::Prototype::Carousel>.
+
+=head1 AUTHOR
+
+Graham TerMarsch (cpan@howlingfrog.com)
+
+=head1 LICENSE
+
+Copyright (C) 2007, Graham TerMarsch.  All rights reserved.
+
+This is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+=head1 SEE ALSO
+
+L<Alien::Prototype::Carousel>.
+
+=cut
