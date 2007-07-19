@@ -29,7 +29,6 @@ sub install {
         mkpath( [$destdir] ) || croak "can't create '$destdir'; $!";
     }
     my $path = $class->path();
-$DB::single=1;
 
     # Install files
     my @files = grep { -f $_ } glob "$path/*.*s";
