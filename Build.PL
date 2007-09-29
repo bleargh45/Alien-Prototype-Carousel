@@ -7,6 +7,8 @@ MY::Build->new(
     'module_name'       => 'Alien::Prototype::Carousel',
     'license'           => 'perl',
     'dist_author'       => 'Graham TerMarsch (cpan@howlingfrog.com)',
+    'requires'          => { 'perl'             => '5.6.0',
+                           },
     'build_requires'    => { 'Test::Exception'  => 0,
                            },
     )->create_build_script();
