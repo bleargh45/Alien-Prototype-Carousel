@@ -49,7 +49,6 @@ sub fetch_carousel {
 
 sub install_carousel {
     my $self = shift;
-$DB::single=1;
     return if (-d $self->carousel_target_dir());
 
     my $dst = $self->carousel_target_dir();
