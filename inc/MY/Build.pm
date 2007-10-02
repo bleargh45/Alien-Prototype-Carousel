@@ -51,7 +51,7 @@ sub install_carousel {
     return if (-d $self->carousel_target_dir());
 
     my $dst = $self->carousel_target_dir();
-    mkpath( [$dst] ) || die "unable to create '$dst'; $!";
+    mkpath( $dst ) || die "unable to create '$dst'; $!";
 
     print "Installing Carousel component...\n";
     foreach my $file ($self->carousel_files()) {
