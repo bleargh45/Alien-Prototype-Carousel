@@ -2,6 +2,8 @@ Revision history for Perl extension Alien::Prototype::Carousel.
 
     - added POD coverage tests
     - now depends on Alien::scriptaculous
+    - added "passthrough" Makefile.PL; we -NEED- to have Module::Build
+      installed, auto-generated compatibility Makefile.PLs are insufficient
 
 0.26.1  Sun Sep 30 13:28 PDT 2007
     - added POD docs to Alien::Prototype::Carousel
