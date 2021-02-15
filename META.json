@@ -44,6 +44,14 @@
       ]
    },
    "version" : "v0.26.3",
+   "x_bugtracker" : {
+      "web" : "https://github.com/bleargh45/Alien-Prototype-Carousel/issues"
+   },
    "x_deprecated" : 1,
+   "x_repository" : {
+      "type" : "git",
+      "url" : "git://github.com/bleargh45/Alien-Prototype-Carousel.git",
+      "web" : "https://github.com/bleargh45/Alien-Prototype-Carousel"
+   },
    "x_serialization_backend" : "JSON::PP version 4.05"
 }
