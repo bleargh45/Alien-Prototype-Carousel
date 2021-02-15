@@ -34,7 +34,7 @@
    "provides" : {
       "Alien::Prototype::Carousel" : {
          "file" : "lib/Alien/Prototype/Carousel.pm",
-         "version" : "v0.26.3"
+         "version" : "v0.26.4"
       }
    },
    "release_status" : "stable",
@@ -43,7 +43,7 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v0.26.3",
+   "version" : "v0.26.4",
    "x_bugtracker" : {
       "web" : "https://github.com/bleargh45/Alien-Prototype-Carousel/issues"
    },

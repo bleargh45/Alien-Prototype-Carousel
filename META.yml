@@ -16,13 +16,13 @@ name: Alien-Prototype-Carousel
 provides:
   Alien::Prototype::Carousel:
     file: lib/Alien/Prototype/Carousel.pm
-    version: v0.26.3
+    version: v0.26.4
 requires:
   Alien::scriptaculous: '0'
   perl: v5.6.0
 resources:
   license: http://dev.perl.org/licenses/
-version: v0.26.3
+version: v0.26.4
 x_bugtracker:
   web: https://github.com/bleargh45/Alien-Prototype-Carousel/issues
 x_deprecated: 1
