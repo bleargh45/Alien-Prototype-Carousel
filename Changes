@@ -1,5 +1,8 @@
 Revision history for Perl extension Alien::Prototype::Carousel.
 
+0.26.4  ????
+    - DEPRECATED; DO NOT USE
+
 0.26.3  Fri Apr 23 22:21 PDT 2010
     - Switch to Git.
 

@@ -15,4 +15,7 @@ MY::Build->new(
     'build_requires'    => {
         'Test::Exception'       => 0,
         },
+    'meta_merge' => {
+        'x_deprecated'          => 1,
+        },
     )->create_build_script();
